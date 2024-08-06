@@ -6349,7 +6349,7 @@
   position: relative;
 }
 .slider.home2 .slider-item .content {
-  padding: 245px 0 373px;
+  padding: 150px 0 150px;
 }
 .slider.home2 .slider-item .content .heading {
   padding: 0 121px 0 150px;
@@ -8833,6 +8833,47 @@ p {
   color: #8E8E93;
 }
 
+/* .otp-input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+} */
+
+.otp-input-container .inputs{
+  display: flex;
+  min-width: 200px;
+  justify-content: space-between;
+}
+
+.otp-input-container input[type=text]{
+  color: black;
+  border-bottom: 1px solid black;
+  width: 60px;
+  margin-right: 10px;
+  background-color: white;
+}
+
+
+.otp-input-container .input:focus {
+  border-bottom: 3px solid orange;
+  outline: none;
+}
+
+.otp-input-container .input:nth-child(1) {
+  cursor: pointer;
+  pointer-events: all;
+}
+.my-agent-partner-container .tf-uploads{
+  border:1px solid #80808059;
+}
+.my-agent-partner-container .img-box{
+  padding: 20px;
+}
+
+.voucherpng img{
+  height: 200px;
+}
 /* Typography
 -------------------------------------------------------------- */
 h1,
